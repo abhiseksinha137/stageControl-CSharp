@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stageControl CSharp", "stageControl CSharp\stageControl CSharp.csproj", "{D00FBC21-F7AD-4766-84A8-79941F770F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D00FBC21-F7AD-4766-84A8-79941F770F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00FBC21-F7AD-4766-84A8-79941F770F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00FBC21-F7AD-4766-84A8-79941F770F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00FBC21-F7AD-4766-84A8-79941F770F85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

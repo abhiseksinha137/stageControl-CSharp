@@ -1,0 +1,10 @@
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\bin\Debug\stageControl CSharp.exe.config
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl CSharp.csprojResolveAssemblyReference.cache
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl_CSharp.Form1.resources
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl_CSharp.Properties.Resources.resources
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl CSharp.csproj.GenerateResource.Cache
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\bin\Debug\stageControl CSharp.exe
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\bin\Debug\stageControl CSharp.pdb
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl CSharp.exe
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl CSharp.pdb
+E:\VB.NEt\stageControl CSharp\stageControl CSharp\obj\Debug\stageControl_CSharp.AboutBox1.resources
