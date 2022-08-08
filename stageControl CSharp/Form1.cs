@@ -40,12 +40,14 @@ namespace stageControl_CSharp
             try
             {
                 com = new SerialPort(comboBox1.Text, 9600, Parity.None, 8, StopBits.One);
+                com.Open();
                 btnDiscon.Enabled = true;
                 writeLog("Stage Connected!");
+                pnlIndicator.BackColor = Color.Lime;
             }
             catch (Exception ex)
             {
-                writeLog("Stage not found!");
+                writeLog("Stage not found!" + ex.Message);
             }
         }
 
@@ -56,6 +58,7 @@ namespace stageControl_CSharp
                 com.Close();
                 btnDiscon.Enabled = false;
                 writeLog("Stage Disconnected!");
+                pnlIndicator.BackColor = Color.Gray;
             }
             catch (Exception ex)
             {
@@ -65,6 +68,7 @@ namespace stageControl_CSharp
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            closeCOM();
             connectCOM();
         }
 

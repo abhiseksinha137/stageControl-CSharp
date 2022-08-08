@@ -45,6 +45,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pnlIndicator = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +54,7 @@
             // 
             this.btnDiscon.Enabled = false;
             this.btnDiscon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDiscon.Location = new System.Drawing.Point(6, 41);
+            this.btnDiscon.Location = new System.Drawing.Point(4, 41);
             this.btnDiscon.Name = "btnDiscon";
             this.btnDiscon.Size = new System.Drawing.Size(75, 23);
             this.btnDiscon.TabIndex = 0;
@@ -64,7 +65,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 14);
+            this.comboBox1.Location = new System.Drawing.Point(4, 14);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(75, 21);
             this.comboBox1.TabIndex = 1;
@@ -75,10 +76,10 @@
             // 
             this.txtbxLog.BackColor = System.Drawing.SystemColors.InfoText;
             this.txtbxLog.ForeColor = System.Drawing.Color.Lime;
-            this.txtbxLog.Location = new System.Drawing.Point(87, 426);
+            this.txtbxLog.Location = new System.Drawing.Point(90, 426);
             this.txtbxLog.Multiline = true;
             this.txtbxLog.Name = "txtbxLog";
-            this.txtbxLog.Size = new System.Drawing.Size(378, 71);
+            this.txtbxLog.Size = new System.Drawing.Size(381, 71);
             this.txtbxLog.TabIndex = 2;
             this.txtbxLog.TextChanged += new System.EventHandler(this.txtbxLog_TextChanged);
             // 
@@ -141,6 +142,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel2.Controls.Add(this.pnlIndicator);
             this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.txtbxDelay);
@@ -148,7 +150,7 @@
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(89, 497);
+            this.panel2.Size = new System.Drawing.Size(92, 497);
             this.panel2.TabIndex = 8;
             // 
             // linkLabel1
@@ -165,7 +167,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 79);
+            this.label1.Location = new System.Drawing.Point(4, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 13);
             this.label1.TabIndex = 3;
@@ -173,7 +175,7 @@
             // 
             // txtbxDelay
             // 
-            this.txtbxDelay.Location = new System.Drawing.Point(6, 98);
+            this.txtbxDelay.Location = new System.Drawing.Point(4, 98);
             this.txtbxDelay.Name = "txtbxDelay";
             this.txtbxDelay.Size = new System.Drawing.Size(75, 20);
             this.txtbxDelay.TabIndex = 2;
@@ -213,6 +215,15 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // pnlIndicator
+            // 
+            this.pnlIndicator.BackColor = System.Drawing.Color.Gray;
+            this.pnlIndicator.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlIndicator.Location = new System.Drawing.Point(80, 20);
+            this.pnlIndicator.Name = "pnlIndicator";
+            this.pnlIndicator.Size = new System.Drawing.Size(10, 10);
+            this.pnlIndicator.TabIndex = 9;
             // 
             // Form1
             // 
@@ -257,6 +268,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel pnlIndicator;
     }
 }
 
